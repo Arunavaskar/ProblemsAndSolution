@@ -1,0 +1,16 @@
+Armstrong number is a number that is equal to the sum of cubes of its digits.
+For example 0, 1, 153, 370, 371 and 407 are the Armstrong numbers.
+
+Pseudo Code:
+1. First write a function to get user input for the number to check if it is a Armstrong one or not!
+2. Now we have to multiply each number from that number to the power of the number numbers available 
+in that number!
+
+like 1234 will have 1**4 2**4 3**4 4**4
+and 12 will have 1**2 and 2**2
+or 123 will have 1**3 2**3 3**3
+
+3. You have to convert the int input into a number using str(num) in python
+and num.toString() javascript so that you can access individuaL parts of the number
+
+4. use int(num) for python and Number(num) convert the number again into integers.

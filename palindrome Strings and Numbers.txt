@@ -1,0 +1,50 @@
+a word, phrase, or sequence that reads the same backwards as forwards
+:Single Word Palindromes:
+Anna
+Civic
+Kayak
+Level
+Madam
+Mom
+Noon
+Racecar
+Radar
+Redder
+Refer
+Repaper
+Rotator
+Rotor
+Sagas
+Solos
+Stats
+Tenet
+Wow
+
+
+:Multiple Word Palindromes:
+Don't nod.
+I did, did I?
+My gym
+Red rum, sir, is murder
+Step on no pets
+Top spot
+Was it a cat I saw?
+Eva, can I see bees in a cave?
+No lemon, no melon
+
+:Palindrome Numbers:
+{1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 22, 33, 44, 55, 66, 77, 88, 99, 101, 111, 121, 131, 141, 151, 161, 171, 181, 191, 202, 212, 222, 232, 242, 252, 262, 272, 282, 292, 303, 313, 323, 333, 343, 353, 363, 373, 383, 393, 404, 414, 424, 434, 444, 454, 464, 474, 484, 494, 505, 515, 525, 535, 545, 555, 565, 575, 585, 595, 606, 616, 626, 636, 646, 656, 666, 676, 686, 696, 707, 717, 727, 737, 747, 757, 767, 777, 787, 797, 808, 818, 828, 838, 848, 858, 868, 878, 888, 898, 909, 919, 929, 939, 949, 959, 969, 979, 989, 999}
+
+
+Pseudo Code(STRING):
+1. The main idea behind Palindrome is that if we mirror/reverse print the string,
+    it will be same. eg: madam in reverse is madam
+2. so we will need to reverse the string and then compare that with the original one
+OR
+3. you can compare 1st and last index of the string to confirm and then continue the comparison
+    towards middle of it to say if it is or not a palindrome.
+OR
+4. you can get the length of the string and then get the half portion of the string and reverse it to compare it 
+    with the first portion of the string.
+
+At probably you already know that the first solution is the most effective one so far!
