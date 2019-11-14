@@ -1,0 +1,3 @@
+Given two variables
+A and B
+swap there values without using any third variable!
